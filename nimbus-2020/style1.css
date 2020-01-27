@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(quiz.jpg) no-repeat center center fixed;
+    /* background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+}
+
+.loginbox{
+    width: 700px;
+    height:600px;
+    color:#004d00;
+    top:35%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-30%,-30%);
+    box-sizing: border-box;
+    padding: 70px 100px;
+    box-shadow: 20px 20px 50px #000000;
+
+}
+
+h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align: center;
+    font-size:22px;
+
+}
+
+.loginbox p{
+    margin: 0;
+    padding:0;
+    font-weight: bold;
+    color: #004d00;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+    color: #004d00;
+
+}
+
+
+.loginbox input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #004d00;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#004d00;
+    font-size: 16px;
+}
