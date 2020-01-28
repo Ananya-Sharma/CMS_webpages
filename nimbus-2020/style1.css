@@ -46,13 +46,29 @@ h1{
 }
 
 
-.loginbox input[type="text"]
+.loginbox input[type="text"],input[type="password"]
 {
-    border: none;
-    border-bottom: 1px solid #004d00;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
     background: transparent;
     outline: none;
     height: 40px;
     color:#004d00;
     font-size: 16px;
 }
+
+button {
+  background-color: #008000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
